@@ -1,6 +1,7 @@
 body {
     max-width: 1024px;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-header {

@@ -1,0 +1,29 @@
+#email_us {
+    display: block;
+    text-align: center;
+    justify-items: auto;
+    background-image: url('../img/map-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #61458c;
+    height: auto;
+
+}
+
+div {
+    margin-bottom: 10px;
+  }
+  label {
+    display: inline-block;
+    width: 110px;
+    color: white;
+  }
+
+
+  textarea {
+    width: 190px;
+
+  }
+  input {
+    padding: 5px 10px;
+  }
