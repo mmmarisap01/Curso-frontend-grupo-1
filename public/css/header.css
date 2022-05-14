@@ -1,0 +1,69 @@
+.main-header {
+    background-image: url("/img/header.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    height: 250px;
+    color: #fff;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.main-header h1 {
+    font-size: xx-large;
+}
+
+.navbar {
+    background-color: #61458c;
+    text-decoration: white;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-button {
+
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 8em;
+    height: 2.5em;
+    position: relative;
+}
+
+.navbar-button:hover {
+    background: white;
+    border: none;
+    border-radius: 3px;
+    color: #61458c;    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #61458c;
+    font-weight:bold;
+}
+a:focus{
+    color: #61458c;
+    font-weight:bold;
+}
+
+.navbar-button:focus {
+    background: white;
+    border: none;
+    border-radius: 3px;
+    color: #61458c;
+    /* height: ;*/
+}
