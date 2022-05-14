@@ -1,0 +1,78 @@
+#portfolio {
+    text-align: center;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+#portfolio h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-transform: 3rem;
+}
+
+h3 {
+    font-size: 22px;
+}
+#portfolio h3 {
+    color: rgb(108, 102, 79);
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 300px;
+}
+
+img:hover {
+    rotate: -8deg;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+}
+
+.img1 {
+    margin-bottom: 15px;
+}
+
+.img2 {
+    margin-bottom: 15px;
+}
+
+.img3 {
+    margin-bottom: 15px;
+}
+
+.img4 {
+    margin-bottom: 15px;
+}
+
+.img5 {
+    margin-bottom: 15px;
+}
+.img6 {
+    margin-bottom: 15px;
+}
+
+.img7 {
+    margin-bottom: 15px;
+}
+
+.img8 {
+    margin-bottom: 15px;
+}
+
+.img9 {
+    margin-bottom: 15px;
+}
+
+
+.img5:hover {
+    rotate: -360deg;
+    transition-duration: 1s;
+    border-radius: 50%;
+}
+
+
+
+   
