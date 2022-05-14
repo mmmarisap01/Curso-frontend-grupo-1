@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/location.css">
-    <link rel="stylesheet" href="./css/emailus.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,27 +13,25 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
 
-
-    <title>My Business Webpage in Node-Express!!</title>
+    <title>My Business Webpage</title>
 </head>
 
 <body>
 
     <header class="main-header">
         <hgroup>
-            <h1>My Business Webpage in Node-Express!!</h1>
-
+            <h1>My Business Webpage</h1>
         </hgroup>
-        <nav class="navbar">
-            <li><button class="navbar-button"><a href="#who_we_are">Who We Are</a></button></li>
-            <li class="navbar-button"><a href="#our_services">Services</a></li>
-            <li class="navbar-button"><a href="#portfolio">Portfolio</a></li>
-            <li class="navbar-button"><a href="#contact">Contact</a></li>
-        </nav>
     </header>
+    <nav class="navbar">
+        <li><button class="navbar-button"><a href="#who_we_are">Who We Are?</a></button></li>
+        <li><button class="navbar-button"><a href="#our_services">Services</a></button></li>
+        <li><button class="navbar-button"><a href="#portfolio">Portfolio</a></button></li>
+        <li><button class="navbar-button"><a href="#contact">Location</a></button></li>
+        <li><button class="navbar-button"><a href="#email_us">Email Us</a></button></li>
+    </nav>
 
     <main>
-
         <section id="who_we_are">
             <h2>Who we are?</h2>
             <article>
@@ -133,91 +129,65 @@
                 <h3>There are success projects created by us</h3>
             </header>
             <span>
-                <img src="./img/2.jpg" class="img1" alt="Sad box boy" width="240" height="160">
-                <img src="./img/3.jpg" class="img1" alt="Box boy in coffee" width="240" height="160">
-                <img src="./img/4.jpg" class="img1" alt="Box boy in candles" width="240" height="160">
-                <img src="./img/5.jpg" class="img1" alt="Box boy reading" width="240" height="160">
-                <img src="./img/6.jpg" class="img1" alt="Box boy in bank" width="240" height="160">
-                <img src="./img/7.jpg" class="img1" alt="Box boy eating walnuts" width="240" height="160">
-                <img src="./img/8.jpg" class="img1" alt="Night Box boy " width="240" height="160">
-                <img src="./img/9.jpg" class="img1" alt="Box boy eating cookies" width="240" height="160">
-                <img src="./img/10.jpg" class="img1" alt="Box boy in bathroom" width="240" height="160">
+                <img src="./img/2.jpg" alt="Sad box boy" width="240" height="160">
+                <img src="./img/3.jpg" alt="Box boy in coffee" width="240" height="160">
+                <img src="./img/4.jpg" alt="Box boy in candles" width="240" height="160">
+                <img src="./img/5.jpg" alt="Box boy reading" width="240" height="160">
+                <img src="./img/6.jpg" alt="Box boy in bank" width="240" height="160">
+                <img src="./img/7.jpg" alt="Box boy eating walnuts" width="240" height="160">
+                <img src="./img/8.jpg" alt="Night Box boy " width="240" height="160">
+                <img src="./img/9.jpg" alt="Box boy eating cookies" width="240" height="160">
+                <img src="./img/10.jpg" alt="Box boy in bathroom" width="240" height="160">
             </span>
         </section>
 
-        <section id="location">
-            <h2>Location</h2>
+        <section id="contact">
+            <h2>Contact</h2>
             <header>
-                <h4>You can find us</h4>
+                <h3>You can find us:</h3>
             </header>
+            <img src="./img/pirateMap.jpeg" alt="Pirate map" width="200">
+            <section id="head_office">
+                <h3>Head Office</h3>
+                <p><i>12356 Blank Street<br>
+                        Phone: <a href="tel:2456-134-321">2456-134-321</a><br>
+                        Email Address: <a href="mailto: info@domain.com">info@domain.com</a>
+                    </i></p>
+            </section>
 
-            <div class="location-wrapper">
-                <div id="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.404577406065!2d2.167858415726965!3d41.3870194039804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f1602b4819%3A0x1eecc2af1c60d64b!2sPla%C3%A7a%20de%20Catalunya!5e0!3m2!1ses!2ses!4v1652463925397!5m2!1ses!2ses"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+            <section id="emea">
+                <h3>Emea</h3>
+                <p><i>Carrer de Sant Joan de la Salle,42<br>08022 Barcelona<br>
+                        Phone: <a href="tel:932902474">932902474</a><br>
+                        Email Address: <a href="mailto: info@salleurl.edu">info@salleurl.edu</a>
+                    </i></p>
+            </section>
 
+            <section id="email_us">
+                <h2>Contact</h2>
+                <form action="/" method="post">
 
-                <div class="address">
-                    <section id="head_office">
-                        <h3>Head Office</h3>
-                        <p><i>12356 Blank Street<br>
-                                Phone: <a href="tel:2456-134-321">2456-134-321</a><br>
-                                Email Address: <a href="mailto: info@domain.com">info@domain.com</a>
-                            </i></p>
-                    </section>
-
-                    <section id="emea">
-                        <h3>Emea</h3>
-                        <p><i>Carrer de Sant Joan de la Salle,42<br>08022 Barcelona<br>
-                                Phone: <a href="tel:932902474">932902474</a><br>
-                                Email Address: <a href="mailto: info@salleurl.edu">info@salleurl.edu</a>
-                            </i></p>
-                    </section>
-                </div>
-            </div>
-        </section>
-
-        <section id="email_us">
-            <h2>Email Us</h2>
-            <form action="/" method="post">
-                <fieldset>
-                    <div>
-                        <label for="name">Name*: </label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-
-                    <div>
-                        <label for="email">Email*: </label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-
-                    <div>
-                        <label for="phone">Phone: </label>
-                        <input type="tel" name="phone" id="phone">
-                    </div>
-
-                    <div>
-                        <label for="subject">Subject*: </label>
-                        <input type="text" name="subject" id="subject" required>
-                    </div>
-
-                    <div>
-                        <label for="message">Message*: </label>
-                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                    </div>
+                    <label for="name">Name*: <input type="text" name="name" id="" required></label><br>
+                    <label for="name">Email*: <input type="email" name="email" id="" required></label><br>
+                    <label for="name">Phone: <input type="tel" name="phone" id=""></label><br>
+                    <label for="name">Company Name: <input type="text" name="company" id=""></label><br>
+                    <label for="name">Subject*: <input type="text" name="subject" id="" required></label><br>
+                    <label for="name">Message*: <textarea name="message" id="" cols="30" rows="10"
+                            required></textarea></label><br>
 
                     <button type="submit">Send</button>
-                </fieldset>
-            </form>
+
+                </form>
+            </section>
+
+
+
         </section>
 
+
+
         <footer>
-            <div class="footer-container">
-                <p>© 2022 - <a href="https://www.salleurl.edu/" target="_blank">LaSalle</a> All Rights Reserved.</p>
-            </div>
+            <p>© 2022 - <a href="https://www.salleurl.edu/" target="_blank">LaSalle</a> All Rights Reserved.</p>
         </footer>
     </main>
 
