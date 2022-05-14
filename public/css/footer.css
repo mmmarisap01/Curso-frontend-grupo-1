@@ -1,0 +1,18 @@
+footer {
+    background-color: #61458c;
+    color: #fff;
+    text-align: right;
+    font-size: small;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-container {
+    margin: 20px;
+}

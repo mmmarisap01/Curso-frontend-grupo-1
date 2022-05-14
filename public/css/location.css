@@ -1,13 +1,23 @@
 #location {
-
- text-align: center;
-
-
-
-
+    text-align: center;
+    margin-bottom: 70px;
 }
 
+#location h2 {
+    font-weight: 400;
+    font-size: xx-large;
+    color: #4e4e4e;
+}
 
+#location h3 {
+    font-weight: 600;
+    color: #4e4e4e;
+}
+
+#location h4 {
+    font-weight: 400;
+    color: #4e4e4e;
+}
 
 #map {
     border: 2px solid black;
@@ -28,20 +38,19 @@
 }
 
 .address {
-
     margin-left: 2em;
 }
 
 #head_office {
-
     text-align: left;
-
+    width: 160px;
+    margin-bottom: 30px;
 }
 
 #emea {
-
     text-align: left;
-
+    width: 160px;
+    margin-bottom: 40px;
 }
 
 .location-wrapper {
@@ -50,4 +59,5 @@
     grid-gap: 20px;
     width: 70%;
     margin: auto;
+    padding-top: 20px;
 }
