@@ -1,44 +1,42 @@
 [class="col-"] {
-    align-items: center;
-  }
+  align-items: center;
+}
 
 #portfolio {
-      justify-content: center;
-      align-items: center;  
-      margin-top: 3em;
-      margin-bottom: 3em;
-      margin-left: 3em;
-      margin-right: 3em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 h2 {
-    font-size: 2.5em;
-    line-height: 1.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .image {
-    justify-content: center;
-    align-items: center;  
-    align-self: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
-.subtitle{
-    text-align: center;
-    margin-bottom: 3em;
+.subtitle {
+  text-align: center;
+  margin-bottom: 3em;
 }
-
 
 #portfolio img {
-    width: 240px;
-    padding: 0px;
-    margin-bottom: 0.5em
+  width: 240px;
+  padding: 0px;
+  margin-bottom: 0.5em;
 }
 
 #portfolio img:hover {
-    rotate: -4deg;
-    transition-delay: 0.2s;
-    transition-duration: 1.1s;
+  rotate: -4deg;
+  transition-delay: 0.2s;
+  transition-duration: 1.1s;
 }
-
