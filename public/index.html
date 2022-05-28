@@ -5,41 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/location.css">
     <link rel="stylesheet" href="./css/emailus.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sections.css">
     <link rel="stylesheet" href="./css/portfolio.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <title>My Business Webpage in Node-Express!!</title>
+    <title>My Business Webpage</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
 </head>
 
 <body>
 
     <header class="main-header">
+        <!--<img
+          src="/img/header.jpg"
+          style="max-height: 250px"
+          class="img-fluid"
+          alt="Responsive image"
+        />-->
         <hgroup>
-            <h1>My Business Webpage</h1>
+          <h1>My Business Webpage</h1>
         </hgroup>
-    </header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <li><button class="navbar-button"><a href="#who_we_are">Who We Are?</a></button></li>
-            <li><button class="navbar-button"><a href="#our_services">Services</a></button></li>
-            <li><button class="navbar-button"><a href="#portfolio">Portfolio</a></button></li>
-            <li><button class="navbar-button"><a href="#location">Location</a></button></li>
-            <li><button class="navbar-button"><a href="#email_us">Email Us</a></button></li>
+      </header>
+      <nav
+        class="navbar navbar-expand-md navbar-expand-lg navbar-dark justify-content-end">
+        <!--<style="background-color: #61458c">-->
+        <button
+          class="navbar-toggler float-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"        
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--<a class="navbar-brand" href="#">Hidden brand</a>-->
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#who_we_are">Who We Are?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our_services">OurServices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#email_us">EmailUs</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
     <main>
 
@@ -299,10 +334,10 @@
             </span>
         </section>
 
-        <section id="location">
-            <h2>Location</h2>
+        <section id="contact">
+            <h2>Contact</h2>
             <header>
-                <h4>You can find us</h4>
+                <h3>You can find us:</h3>
             </header>
 
             <div class="location-wrapper">
@@ -364,10 +399,11 @@
                     </div>
 
                     <button type="submit">Send</button>
-                </fieldset>
-            </form>
-        </section>
 
+
+                </form>
+            </section>
+        </section>
         <div class="container">
             <footer>
                 <div>
@@ -383,5 +419,4 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
