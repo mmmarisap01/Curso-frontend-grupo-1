@@ -1,86 +1,47 @@
-#who_we_are h2 {
-    font-size: 2.5em;
-    font-weight:bold;
+
+
+/* starts the body css*/
+
+body {
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #2d2926;
+    font-weight: 400;
     text-align: center;
+       
 }
 
-#who_we_are h3 {
-    font-weight: 100;
-    font-size: 16px;
-    text-align: center;
-}
-
-#our_services h2 {
+h2 {
     font-size: 2.5em;
-    font-weight:bold;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
     text-align: center;
+    
 }
 
 #who_we_are {
-    max-width: 1024px;
-    background-color: rgb(236, 231, 222);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+
+    background-color: #f2f2f2;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+    
+}
+
+#who_we_are h3{
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+
+.subtitle{
     text-align: center;
     
 }
 
-.tg  {
-    font-family: "Open Sans", sans-serif;
-    border-color: white;
-    font-size: 14px;
-    line-height : 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
- 
-}
-
-.tg td{
-    border-color:rgb(255, 255, 255);
-    border-style:solid;
-    border: 0px;
-    line-height : 25px;
-    overflow:hidden;
-    word-break:normal;
-    }
-
-.tg th{
-    border-color:rgb(255, 255, 255);
-    border-style:solid;
-    border-width:0px;
-    overflow:hidden;
-    word-break:normal;
-}
-
-.tg .tg-0lax{
-    max-width: 50%;
-    text-align: justify;
-    vertical-align: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-
-.tg .tg-02ax{
-    max-width: 50%;
-    text-align: justify;
-    vertical-align: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.tg .tg-03ax{
-    max-width: 50%;
-    text-align: center;
-    vertical-align: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .image {
     float: left;
@@ -88,52 +49,149 @@
     margin-bottom: 0.1em;
 }
 
-.line {
-    border-left: 1px solid rgb(209, 209, 209);
-    height: 600px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 15em;
-  }
 
 
+.Ad {
+    float: right;
+    margin-left: 1.5em;
+    margin-bottom: 0.1em;
 
 
-.icon {
-    width: 50%;
-    height: 50%;
-    vertical-align:top}
-   
-
-.row{
-    width: 100%;
-    width: 1040px
-}
-
-.column {
-    float: left;
-    width: 23.8%;
-    font-size: 14px;
-    text-align: left;
-}
-
-.column h3 {
-
-    font-size: 20px;
-    font-weight: 600;
-  
-}
-    .column2 {
-        float: left;
-        width: 9%;
-        text-align: center;
+ }
  
-    }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+ #line {
+    border-left: 1px solid rgb(196, 196, 196);
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
   }
+ 
+ #our_services {
+     background-color: #ffffff;
+     align-items: center;
+     justify-content: center;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 1em;
+     padding-right: 1em;
+ }
+ 
+ #our_services h3{
+     font-size: 1.4em;
+     font-weight: 600;
+     
+ }
 
+
+
+.column-text {
+    float: top;
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.icon-position {
+    float: right;
+ 
+}
+
+
+  /* all icons style below */
+
+  .fa-cloud {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-cloud:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.fa-code {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-code:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.fa-wifi {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-wifi:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.fa-globe-africa {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-globe-africa:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+.fa-flag {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-flag:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.fa-bars {
+
+    color: #61458C;
+    font-size: 30px;
+}
+
+.fa-bars:hover {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.icon-frame {
+    border-radius: 50%;
+    border:#888888 2px solid;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-frame:hover {
+    border-radius: 50%;
+    border:#61458C 2px solid;
+    background-color: #61458C;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
