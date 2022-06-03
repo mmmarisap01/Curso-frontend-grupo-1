@@ -1,4 +1,4 @@
-.main-header {  
+.main-header {
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -12,37 +12,49 @@
 .main-header h1 {
   font-size: xx-large;
 }
-.button.navbar-button {
+
+.button .navbar-button {
   margin-right: 20px;
 }
+
 .navbar-nav {
   margin-left: 2em;
 }
+
 .nav-item {
   padding-right: 2rem;
   color: #fff;
 }
-.nav-link {
+/*.nav-link {
   color: #fff;
   font-weight:480!important;
-}
-.navbar{
+}*/
+.navbar {
   background-color: #61458c;
 }
+
 @media (min-width: 769px) {
   .main-header {
     background-image: url("/img/header.jpg");
     padding-left: 20px;
   }
+
+  .navbar-custom .nav-item:hover .nav-link {
+    padding-left: 2rem; /* add background-color to active links */
+  }
+
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
   .main-header {
     background-image: url("/img/header-mini.png");
-    padding-left: 20px;    
-  } 
+    padding-left: 20px;
+  }
   .navbar-toggler {
-    margin-right: 1em!important;
+    margin-right: 1em !important;
+  }
+  .navbar-custom .nav-item:hover .nav-link {
+    padding-left: 2rem; /* add background-color to active links */
   }
 }
 
@@ -52,8 +64,14 @@
     justify-content: center;
   }
   .navbar-toggler {
-    margin-right: 1em!important;
-  } 
+    margin-right: 1em !important;
+  }
+  .navbar-custom .nav-item:hover .nav-link {
+    padding-left: 2rem; /* add background-color to active links */
+  }
+  .text-sm-left {
+    padding-left: 2rem;
+  }
 }
 
 .navbar-button {
@@ -65,22 +83,34 @@
   height: 2.5em;
   position: relative;
 }
-
-.nav-item:hover {
+.collapse.show>ul{
+  justify-content: center;
+  margin-right: 5rem;  
+}
+/*.nav-item:hover {
   background: white;
   border: none;
   border-radius: 3px;
   color: #61458c;
-}
+}*/
 
-.navbar-button:focus {
+/*.navbar-button:focus {
   background: white;
   border: none;
   border-radius: 3px;
   color: #61458c;  
-}
+}*/
 
-
-.nav-link:hover {
+/*.nav-link:hover {
   color: #61458c;
+}*/
+/*.navbar-custom {
+  background-color: #61458c;
+}*/
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item:hover .nav-link {
+  background: white;
+  color: #61458c; /* add background-color to active links */
 }
+
