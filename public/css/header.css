@@ -11,6 +11,7 @@
 
 .main-header h1 {
   font-size: xx-large;
+  mix-blend-mode: difference;
 }
 
 .button .navbar-button {
@@ -67,7 +68,7 @@
   }
   .navbar-nav {
     margin-left: 0;
-  }
+  }  
 }
 
 .navbar-button {
