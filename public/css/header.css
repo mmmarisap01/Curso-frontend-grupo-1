@@ -22,13 +22,8 @@
 }
 
 .nav-item {
-  /*padding-right: 2rem;*/
   color: #fff;
 }
-/*.nav-link {
-  color: #fff;
-  font-weight:480!important;
-}*/
 .navbar {
   background-color: #61458c;
 }
@@ -38,13 +33,9 @@
     background-image: url("/img/header.jpg");
     padding-left: 20px;
   }
-  /*.navbar-custom .nav-item:hover .nav-link {
-    padding-left: 2rem; 
-  }*/
   .nav-item {
-    padding-right: 2rem;    
+    padding-right: 2rem;
   }
-
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -55,15 +46,12 @@
   .navbar-toggler {
     margin-right: 1em !important;
   }
-  .nav-item{
+  .nav-item {
     text-align: center;
   }
   .navbar-nav {
     margin-left: 0;
   }
-  /*.navbar-custom .nav-item:hover .nav-link {
-    padding-left: 2rem; 
-  }*/
 }
 
 @media (max-width: 375px) {
@@ -74,19 +62,12 @@
   .navbar-toggler {
     margin-right: 1em !important;
   }
-  .nav-item{
+  .nav-item {
     text-align: center;
   }
   .navbar-nav {
     margin-left: 0;
   }
-  /*.navbar-custom .nav-item:hover .nav-link {
-    padding-left: 2rem; 
-  }*/
-  /*.text-sm-left {
-    padding-left: 2rem;
-  } */ 
-  
 }
 
 .navbar-button {
@@ -98,47 +79,20 @@
   height: 2.5em;
   position: relative;
 }
-.collapse.show>ul{
+.collapse.show > ul {
   justify-content: center;
-  /*margin-right: 5rem;  */
 }
-/*.nav-item:hover {
-  background: white;
-  border: none;
-  border-radius: 3px;
-  color: #61458c;
-}*/
 
-/*.navbar-button:focus {
-  background: white;
-  border: none;
-  border-radius: 3px;
-  color: #61458c;  
-}*/
-
-/*.nav-link:hover {
-  color: #61458c;
-}*/
-/*.navbar-custom {
-  background-color: #61458c;
-}*/
 /* change the color of active or hovered links */
-
 .navbar-custom .nav-item:hover .nav-link {
   background: white;
   color: #61458c; /* add background-color to active links */
 }
-
-/*.navbar-collapse.collapse.show>ul{
-  justify-content: center;
-}*/
-
-a.nav-link{
-  font-weight: bold;  
+a.nav-link {
+  font-weight: bold;
   font-size: 1.1em;
   color: #fff;
 }
-.navbar-collapse.collapse.show>ul.navbar-nav{
+.navbar-collapse.collapse.show > ul.navbar-nav {
   justify-content: end;
 }
-
