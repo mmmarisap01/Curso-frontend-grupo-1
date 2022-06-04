@@ -1,10 +1,12 @@
 #email_us {
+
     background-image: url("../img/map-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #79629e;
     color: white;
     padding-top: 2rem;
+  
 }
 
 #email_us label {
@@ -22,3 +24,4 @@
 .btn-submit {
     margin-bottom: 1rem;
 }
+
