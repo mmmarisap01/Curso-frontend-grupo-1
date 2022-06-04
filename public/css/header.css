@@ -70,7 +70,7 @@
   }*/
   .text-sm-left {
     padding-left: 2rem;
-  }
+  }  
 }
 
 .navbar-button {
@@ -113,6 +113,16 @@
   color: #61458c; /* add background-color to active links */
 }
 
-.navbar-collapse.collapse.show>ul{
+/*.navbar-collapse.collapse.show>ul{
   justify-content: center;
+}*/
+
+a.nav-link{
+  font-weight: bold;  
+  font-size: 1.1em;
+  color: #fff;
 }
+.navbar-collapse.collapse.show>ul.navbar-nav{
+  justify-content: end;
+}
+
