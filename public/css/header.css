@@ -7,7 +7,7 @@
   height: 250px;
   color: #fff;
   background-repeat: no-repeat;
-  opacity: 0.;
+  opacity: 0.8;
 }
 
 .main-header h1 {
@@ -46,7 +46,8 @@
 @media (min-width: 376px) and (max-width: 768px) {
   .main-header {
     background-image: url("/img/header-mini.png");
-    padding-left: 20px;   
+    padding-left: 20px;  
+  } 
   .navbar-toggler {
     margin-right: 1em !important;
   }
