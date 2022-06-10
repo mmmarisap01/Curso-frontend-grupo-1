@@ -13,3 +13,7 @@ footer {
 footer a {
     color: #fff;
 }
+
+footer div {
+    height: 100%;
+}
