@@ -195,3 +195,15 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+ 
+.container-left {
+
+    border-right: #888888 1px solid;
+}
+
+
+@media (max-width: 991px) {
+    .container-left  {
+        border-right: none;
+    }
+}
