@@ -87,7 +87,7 @@ h2 {
 
 
 .column-text {
-    float: top;
+    /* float: top; */
     width: 90%;
     font-size: 14px;
     text-align: justify;
