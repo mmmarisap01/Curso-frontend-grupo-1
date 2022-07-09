@@ -23,71 +23,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-
-      const today = new Date().toLocaleDateString()
-      window.alert(today);
-
-      const allDivs = document.getElementsByTagName("div")
-
-      for (const div of allDivs) {
-
-        div.addEventListener("mouseover", (event) => {
-          if (event.altKey) {
-            // div.style.border = "1px solid red";
-            div.style.outline = "1px solid red";
-            div.style.outline.offset = "-1px";
-          }
-        })
-
-        div.addEventListener("mouseout", (event) => {
-          if (event.altKey) {
-            // div.style.border = "none";
-            div.style.outline = null;
-            div.style.outline.offset = null;
-          }
-        })
-      }
-
-    })
-
-    document.addEventListener("keypress", (event) => {
-
-      let keyPressed = event.key
-
-
-      switch (keyPressed) {
-
-        case '1':
-
-          window.location = "#who_we_are"
-          break
-
-        case '2':
-          window.location = "#our_services"
-          break
-
-        case '3':
-          window.location = "#portfolio"
-          break
-
-        case '4':
-          window.location = "#location"
-          break
-
-        case '5':
-          window.location = "#email_us"
-          break
-
-      }
-
-    })
-
-  </script>
-
+  <script defer src="./scripts/script.js"></script>
 
 </head>
 
