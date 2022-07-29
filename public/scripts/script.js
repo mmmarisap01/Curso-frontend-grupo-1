@@ -70,4 +70,3 @@ Array.from(navLinks).forEach((element, index) => {
         }
     })    
 })
-
